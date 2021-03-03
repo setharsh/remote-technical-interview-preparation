@@ -8,6 +8,7 @@ authors = ["StephenWithPH <StephenWithPH@users.noreply.github.com>"]
 python = "^3.8"
 
 [tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
 
 [build-system]
 requires = ["poetry>=0.12"]
