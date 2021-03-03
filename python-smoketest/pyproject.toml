@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-smoketest"
+version = "1.0.0"
+description = "A smoketest for your local Python environment."
+authors = ["StephenWithPH <StephenWithPH@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+mypy = "^0.812"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
