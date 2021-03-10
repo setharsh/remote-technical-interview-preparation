@@ -3,4 +3,4 @@
 
 def say_hello(name: str) -> str:
     """Says hello to the provided name."""
-    return f"""hello, {name}"""
+    return f"""hi, {name}"""
